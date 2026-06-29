@@ -1,0 +1,2 @@
+--Get the id values of the first 5 clients from district_id with a value equals to 1.
+select client_id from client where district_id == 1 order by client_id LIMIT 5
